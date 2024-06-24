@@ -1,0 +1,15 @@
+{
+  "name": "pigDemo",
+  "useCompressedEngine": false,
+  "sourcemap": true,
+  "startupScene": "res://9b931ecf-fde9-44dd-acf3-15f8dc807965",
+  "includedScenes": [],
+  "alwaysIncluded": [
+    "prefabs",
+    "scenes"
+  ],
+  "web": {
+    "useSafeFileExtensions": true,
+    "keepTextureSourceFile": true
+  }
+}

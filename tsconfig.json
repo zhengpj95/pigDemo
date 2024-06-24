@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "target": "es6",
+    "strict": true,
+    "strictNullChecks": false,
+    "noEmitHelpers": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "@base/*": [
+        "src/base/*"
+      ],
+      "@def/*": [
+        "src/def/*"
+      ]
+    },
+    "lib": [
+      "ES2022",
+      "DOM"
+    ]
+  },
+  "include": [
+    "./assets",
+    "./src",
+    "./engine"
+  ]
+}

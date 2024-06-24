@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1001,
+    "name": "榴莲",
+    "desc": "吃了对身体好",
+    "icon": "atlas/icon/durian.png",
+    "value": 1000
+  },
+  {
+    "id": 1002,
+    "name": "早餐礼包",
+    "desc": "早餐小零食下午茶小零食",
+    "icon": "atlas/icon/snacks.png",
+    "value": 500
+  },
+  {
+    "id": 1003,
+    "name": "秘密",
+    "desc": "随机小礼品，不退不换，后果自负",
+    "icon": "atlas/icon/secret.png",
+    "value": 1500
+  }
+]

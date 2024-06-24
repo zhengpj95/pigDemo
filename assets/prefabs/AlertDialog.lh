@@ -1,0 +1,81 @@
+{
+  "_$ver": 1,
+  "_$id": "vmc1ek5q",
+  "_$runtime": "res://dc42c9e1-5808-4022-95c6-fdc43025dddb",
+  "_$type": "Dialog",
+  "name": "AlertDialog",
+  "width": 500,
+  "height": 400,
+  "_mouseState": 2,
+  "isModal": true,
+  "_$child": [
+    {
+      "_$id": "yvga3ek6",
+      "_$type": "Image",
+      "name": "Image",
+      "width": 500,
+      "height": 400,
+      "centerX": 0,
+      "centerY": 0,
+      "skin": "res://3225dc27-5bcb-446e-8b66-27df87624835",
+      "color": "#ffffff"
+    },
+    {
+      "_$id": "syhm6bkp",
+      "_$var": true,
+      "_$type": "Label",
+      "name": "labTitle",
+      "x": 150,
+      "y": 10,
+      "width": 200,
+      "height": 28,
+      "centerX": 0,
+      "text": "标题",
+      "fontSize": 25,
+      "color": "#FFFFFF",
+      "align": "center",
+      "valign": "top",
+      "padding": "0,0,0,0"
+    },
+    {
+      "_$id": "j4b5jgs4",
+      "_$type": "Image",
+      "name": "close",
+      "x": 456,
+      "y": 7,
+      "width": 32,
+      "height": 32,
+      "skin": "res://7bd15c64-d7a2-46d1-8fc2-9d71a7923a52",
+      "useSourceSize": true,
+      "color": "#ffffff",
+      "_$comp": [
+        {
+          "_$type": "020dc04d-73a3-4945-8e96-5c0f9856e795",
+          "scriptPath": "../src/scripts/ClickScale.ts",
+          "mdrCall": "",
+          "noScale": false,
+          "stopClickPropagation": false,
+          "clickInterval": false
+        }
+      ]
+    },
+    {
+      "_$id": "qv4cga3b",
+      "_$var": true,
+      "_$type": "Label",
+      "name": "labDesc",
+      "x": 25,
+      "y": 74,
+      "width": 450,
+      "height": 202,
+      "centerX": 0,
+      "text": "\n",
+      "fontSize": 20,
+      "color": "rgba(232, 116, 46, 1)",
+      "valign": "top",
+      "wordWrap": true,
+      "leading": 6,
+      "padding": "0,0,0,0"
+    }
+  ]
+}

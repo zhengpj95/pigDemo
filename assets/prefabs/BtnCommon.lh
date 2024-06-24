@@ -1,0 +1,20 @@
+{
+  "_$ver": 1,
+  "_$id": "v8sseyoo",
+  "_$type": "Image",
+  "name": "Image",
+  "width": 0,
+  "height": 0,
+  "_mouseState": 2,
+  "color": "#ffffff",
+  "_$comp": [
+    {
+      "_$type": "020dc04d-73a3-4945-8e96-5c0f9856e795",
+      "scriptPath": "../src/scripts/ClickScale.ts",
+      "mdrCall": "",
+      "noScale": false,
+      "stopClickPropagation": false,
+      "clickInterval": false
+    }
+  ]
+}
