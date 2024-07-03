@@ -10,6 +10,7 @@
     "skipLibCheck": true,
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
+    "newLine": "lf",
     "baseUrl": "./",
     "paths": {
       "@base/*": [
